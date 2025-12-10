@@ -13,10 +13,9 @@ var STATUSES = [
   { text: '🟩 done', value: 'done', color: 'green' }
 ];
 
-// Инициализация Power-Up
 TrelloPowerUp.initialize({
 
-  // 1) Кнопка на карточке
+  // Кнопка на карточке
   'card-buttons': function (t, opts) {
     return [
       {
@@ -49,7 +48,7 @@ TrelloPowerUp.initialize({
     ];
   },
 
-  // 2) Бейдж на карточке (виден, когда карточка не открыта)
+  // Бейдж на карточке (виден, когда карточка не открыта)
   'card-badges': function (t, opts) {
     return t.get('card', 'shared', STATUS_KEY)
       .then(function (value) {
