@@ -1,0 +1,16 @@
+{
+  "name": "Card Status: do/doing/waite/blocked/done",
+  "details": "Кнопка статуса на карточке + бейдж на карточке.",
+  "author": "Baurzhan",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "icon": {
+    "url": "https://BaurzhanPech.github.io/trello-status-powerup/icon.png"
+  },
+  "capabilities": [
+    "card-buttons",
+    "card-badges"
+  ],
+  "connectors": {},
+  "iframeConnectorUrl": "https://BaurzhanPech.github.io/trello-status-powerup/index.html"
+}
